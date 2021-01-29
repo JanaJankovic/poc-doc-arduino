@@ -73,7 +73,8 @@ Project is:  _finished_ </br>
 All purpose of this repository is to read data from sensor and send it via bluetooth to android application.
 
 ## Inspiration
-Project is based on : https://how2electronics.com/blood-oxygen-heart-rate-monitor-max30100-arduino/
+Project is based on : https://how2electronics.com/blood-oxygen-heart-rate-monitor-max30100-arduino/</br>
+Project is supported by [The Faculty of Electrical Engineering and Computer Science](https://feri.um.si/) and [University of Maribor](https://www.um.si/Strani/default.aspx).
 
 ## Contact
 Created by [@JanaJankovic](https://github.com/JanaJankovic) - feel free to contact me on one of the emails :
