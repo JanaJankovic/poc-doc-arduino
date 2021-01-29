@@ -23,19 +23,45 @@ Pocket Doctor is an app intented to simulate the usage of blockchain in a health
 ## Screenshots
 ![Example screenshot](./img/oxymeter.jpg)
 ![Example screenshot](./img/graph.jpg)
-![Example screenshot](./img/ini.png)
+![Example screenshot](./img/ini.jpg)
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* Arduino - version 1.8.13
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+Needed components :
+* Arduino Nano board - https://www.aliexpress.com/item/32856118319.html?spm=a2g0s.9042311.0.0.40694c4dT11NED
+* Bluetooth module HC-05/HC-06 - https://www.aliexpress.com/item/32856118319.html?spm=a2g0s.9042311.0.0.40694c4dT11NED
+* Oxymeter GY-30100 - https://www.aliexpress.com/item/4000083361778.html?spm=a2g0s.9042311.0.0.40694c4dT11NED
+* Soldering board or breadboard 
+* Some wires
+
+Arduino - HC-O5 : </br>
+* 3V3 - VCC
+* GND - GND
+* TXD - RXD
+* RXD - TXD
+</br>
+Arduino - GY-30100 : </br>
+* 5V - VIN
+* SCL - A5
+* SDA - A4
+* GND - GND
+</br>
+Download code and upload it on the board. </br>
+Make sure that the RXD, TXD pins on the bluetooth are disconnected while you are uploading, otherwise you will get an error.
 
 ## Code Examples
-Show examples of usage:
-`put-your-code-here`
+Libraries : </br>
+```cpp
+#include <Wire.h>
+#include "MAX30100_PulseOximeter.h"
+``` 
+Reading data from sensor : </br>
+```cpp
+Serial.println(pox.getHeartRate());
+Serial.println(pox.getSpO2());
+``` 
 
 ## Features
 Supports reading :
@@ -50,4 +76,7 @@ All purpose of this repository is to read data from sensor and send it via bluet
 Project is based on : https://how2electronics.com/blood-oxygen-heart-rate-monitor-max30100-arduino/
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [@JanaJankovic](https://github.com/JanaJankovic) - feel free to contact me on one of the emails :
+* jana.jankovic@student.um.si
+* jana.j00@outlook.com
+* jana.jankovic.feri@gmail.com
