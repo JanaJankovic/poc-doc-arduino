@@ -21,7 +21,9 @@ Pocket Doctor is an app intented to simulate the usage of blockchain in a health
 * Recognition
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./img/oxymeter.jpg)
+![Example screenshot](./img/graph.jpg)
+![Example screenshot](./img/ini.png)
 
 ## Technologies
 * Tech 1 - version 1.0
