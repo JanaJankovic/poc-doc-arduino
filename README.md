@@ -14,9 +14,10 @@
 ## General info
 Pocket Doctor is an app intented to simulate the usage of blockchain in a healthcare system. It was developed as a student project with a potential to grow. So far it consists out of 6 repositories :
 * [Android](https://github.com/JanaJankovic/poc-doc-android)
-* Blockchain
-* Backend
-* Frontend
+* [Recognition](https://github.com/JanaJankovic/poc-doc-recognition)
+* [Blockchain](https://github.com/PetrovicGoran/blchain-hopefully-working)
+* [Backend](https://github.com/PetrovicGoran/poc-doc-backend)
+* [Frontend](https://github.com/PetrovicGoran/poc-doc-frontend)
 * Arduino (this one)
 * [Recognition](https://github.com/JanaJankovic/poc-doc-recognition)
 
