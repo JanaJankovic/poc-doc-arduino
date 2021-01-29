@@ -13,12 +13,12 @@
 
 ## General info
 Pocket Doctor is an app intented to simulate the usage of blockchain in a healthcare system. It was developed as a student project with a potential to grow. So far it consists out of 6 repositories :
-* Android
+* ![Android](https://github.com/JanaJankovic/poc-doc-android)
 * Blockchain
 * Backend
 * Frontend
 * Arduino (this one)
-* Recognition
+* ![Recognition](https://github.com/JanaJankovic/poc-doc-recognition)
 
 ## Screenshots
 ![Example screenshot](./img/oxymeter.jpg)
@@ -30,24 +30,24 @@ Pocket Doctor is an app intented to simulate the usage of blockchain in a health
 
 ## Setup
 Needed components :
-* Arduino Nano board - https://www.aliexpress.com/item/32856118319.html?spm=a2g0s.9042311.0.0.40694c4dT11NED
-* Bluetooth module HC-05/HC-06 - https://www.aliexpress.com/item/32856118319.html?spm=a2g0s.9042311.0.0.40694c4dT11NED
-* Oxymeter GY-30100 - https://www.aliexpress.com/item/4000083361778.html?spm=a2g0s.9042311.0.0.40694c4dT11NED
+* ![Arduino Nano board](https://www.aliexpress.com/item/32856118319.html?spm=a2g0s.9042311.0.0.40694c4dT11NED)
+* ![Bluetooth module HC-05/HC-06](https://www.aliexpress.com/item/32856118319.html?spm=a2g0s.9042311.0.0.40694c4dT11NED)
+* ![Oxymeter GY-30100](https://www.aliexpress.com/item/4000083361778.html?spm=a2g0s.9042311.0.0.40694c4dT11NED)
 * Soldering board or breadboard 
 * Some wires
 
-Arduino - HC-O5 : </br>
+Arduino - HC-O5 :
 * 3V3 - VCC
 * GND - GND
 * TXD - RXD
 * RXD - TXD
-</br>
-Arduino - GY-30100 : </br>
+
+Arduino - GY-30100 :
 * 5V - VIN
 * SCL - A5
 * SDA - A4
 * GND - GND
-</br>
+
 Download code and upload it on the board. </br>
 Make sure that the RXD, TXD pins on the bluetooth are disconnected while you are uploading, otherwise you will get an error.
 
